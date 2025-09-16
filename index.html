@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahmeer | To-Do List</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="welcome-banner">
+    ✨ Welcome to Shahmeer To-Do-list ✨
+  </div>
+
+  <main class="container">
+    <div class="todo-box">
+      <header class="header">
+        <h1>To-Do List</h1>
+        <p class="subtitle">Stay organized, stay productive</p>
+      </header>
+
+      <div class="input-group">
+        <input type="text" id="input-task" placeholder="Enter a new task..." aria-label="New task input" />
+        <button class="add-btn" id="add-task-btn">Add</button>
+      </div>
+
+      <div class="task-controls">
+        <div class="task-counter">
+          Total: <span id="totalTasks">0</span> | Completed: <span id="completedTasks">0</span>
+        </div>
+        <div class="selected-buttons">
+          <button class="control-btn" id="edit-task-btn">Edit</button>
+          <button class="control-btn" id="clear-all-btn">Clear all</button>
+        </div>
+      </div>
+
+      <ul id="task-list">
+        <div class="empty-state">
+          <i class="bx bx-clipboard"></i>
+          <p>No tasks yet. Add one above to get started!</p>
+        </div>
+      </ul>
+    </div>
+  </main>
+</body>
+<script src="assets/script.js"></script>
+
+</html>
