@@ -19,4 +19,4 @@ A clean, responsive, and modern **To-Do List Application** designed to help you 
 
 ### 🚀 Getting Started  
 ```bash
-git clone https://github.com/Shah0x/to-do-list.git
+https://shah0x.github.io/to-do-list/
